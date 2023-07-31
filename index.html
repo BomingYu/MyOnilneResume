@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Resume</title>
-    <link rel="icon" href="asset/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="asset/img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="/asset/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,6 +32,20 @@
             <a href="#">+64210465296</a>
             <h3>E-mail</h3>
             <a href="#">bomingy@gmail.com</a>
+            <div class="socialMediaDiv">
+              <a href="https://github.com/BomingYu" target="_blank"
+                ><img class="socialImg" src="/asset/img/github.png"
+              /></a>
+              <a href="https://www.linkedin.com/in/boming-yu/" target="_blank"
+                ><img class="socialImg" src="/asset/img/linkedin.png"
+              /></a>
+              <a href="https://www.facebook.com/mason.yu.79" target="_blank"
+                ><img class="socialImg" src="/asset/img/facebook.png"
+              /></a>
+              <a href="https://www.instagram.com/bomingy/" target="_blank"
+                ><img class="socialImg" src="/asset/img/instagram.png"
+              /></a>
+            </div>
           </div>
         </div>
         <div class="skillDiv">
@@ -64,7 +78,132 @@
           </div>
         </div>
       </section>
-      <section class="mainSection">
+      <section class="midSection">
+        <div class="myStorySection">
+          <h2 class="title">About Me</h2>
+          <p>
+            Hey there! I'm Boming, a computer science graduate passionate about
+            coding. I love learning new technologies to stay ahead in this
+            ever-changing field.<br /><br />
+
+            Apart from coding, I enjoy music and cooking. Playing the guitar and
+            experimenting with flavors in the kitchen are my favorite
+            pastimes.<br /><br />
+
+            This website showcases my tech journey, projects, and creative
+            pursuits. Let's connect and learn together!
+          </p>
+        </div>
+        <div class="projectDiv">
+          <h2 class="title">Projects</h2>
+          <div class="borderBottom">
+            <div class="titleWithLink">
+              <h3>Random Number Generator Web</h3>
+              <a href="https://github.com/BomingYu/Random_Numbers_Generator" target="_blank"
+                ><img class="projectLink" src="/asset/img/link.png"
+              /></a>
+            </div>
+            <li class="projectDetial">Description
+              <ul>Random Number Generator is a fun and useful web application designed to provide users with the ability to generate custom random numbers. Users can observe the dynamic effect of random numbers jumping on the page by setting the number and range of generated random numbers.</ul>
+            </li>
+            <li class="projectDetial">Function
+              <ul>Users can input the number of random numbers to be generated in the setting area, and set the range of random numbers (0 to 100,000)</ul>
+              <ul>After clicking the "Run!" button, the generated random numbers will be continuously generated and show a beating effect in the display area, which increases the fun and interactivity.</ul>
+              <ul>After clicking the "Stop" button at any time, the random number generation stops, the page stops beating and the results are displayed.</ul>
+            </li>
+            <li class="projectDetial">Technology
+              <ul>Use HTML5 to define the web page structure, including titles, buttons, and display areas, and build the basic framework of web pages.</ul>
+              <ul>Use JavaScript to write logic to implement the function of generating random numbers, handle user input, and control the generation and stop of random numbers. Through event monitoring and DOM operation, the interactive function of the button is realized.</ul>
+              <ul>The interface design is implemented with CSS3, including color schemes, responsive layouts and font choices, providing a clear user experience and visual appeal.</ul>
+            </li>
+          </div>
+
+          <div class="borderBottom">
+            <div class="titleWithLink">
+              <h3>Decision Maker Web</h3>
+              <a href="https://github.com/BomingYu/DecisionMaker" target="_blank"
+                ><img class="projectLink" src="/asset/img/link.png"
+              /></a>
+            </div>
+            <li class="projectDetial">
+              Description
+              <ul>
+                This webpage is a simple decision aid that can help you make a choice when you are faced with a choice and undecided. This little assistant can provide you with a little help.
+              </ul>
+            </li>
+            <li class="projectDetial">
+              Function
+              <ul>
+                Options are added by clicking “Add An Option button”, and options can be defined as desired.
+              </ul>
+              <ul>
+                Feel free to add as many different options as you want before making a decision.
+              </ul>
+              <ul>
+                Click “Make a Decision For Me Now!” button to make a choice for you and display it in the results area.
+              </ul>
+            </li>
+            <li class="projectDetial">
+              Technology
+              <ul>
+                Implemented using HTML, CSS, and JavaScript.
+              </ul>
+              <ul>
+                JavaScript generates as many options as you want, and defines each option arbitrarily. Displays the corresponding text result in the result area.
+              </ul>
+              <ul>
+                CSS is used to style the interface, making it visually appealing. Responsive layout.              </ul>
+            </li>
+          </div>
+          <div class="borderBottom">
+            <div class="titleWithLink">
+              <h3>Dice Rolling Web</h3>
+              <a href="https://github.com/BomingYu/DiceRolling" target="_blank"
+                ><img class="projectLink" src="/asset/img/link.png"
+              /></a>
+            </div>
+            <li class="projectDetial">
+              Description
+              <ul>
+                Dice Rolling Game is a simple and interactive web application
+                that allows you to roll a dice with a defined number of sides.
+                Just click the "Play!" button, and the result will be displayed
+                on the screen. You can keep rolling the dice as many times as
+                you like by clicking the button repeatedly.
+              </ul>
+            </li>
+            <li class="projectDetial">
+              Function
+              <ul>
+                You can define the number of sides the dice has before each
+                roll.
+              </ul>
+              <ul>
+                Clicking the "Play!" button simulates a dice roll and displays
+                the result on the screen.
+              </ul>
+              <ul>
+                Roll the dice multiple times by clicking the button repeatedly
+                to see new results.
+              </ul>
+            </li >
+            <li class="projectDetial">
+              Technology
+              <ul>
+                Implemented using HTML, CSS, and JavaScript.
+              </ul>
+              <ul>
+                JavaScript generates random dice numbers and displays the
+                corresponding text result.
+              </ul>
+              <ul>
+                CSS is used for interface styling to make it visually appealing.
+              </ul>
+            </li>
+          </div>
+        </div>
+      </section>
+      <section class="leftSection">
         <div class="experience">
           <h2 class="title">Experience</h2>
           <div class="borderBottom">
